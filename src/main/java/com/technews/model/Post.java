@@ -12,7 +12,7 @@ import java.util.Objects;
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "post")
-public class Post {
+public class Post implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
