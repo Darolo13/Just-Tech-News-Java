@@ -1,1 +1,1 @@
-# *_tech-news-java-api_*
+# *__tech-news-java-api__*
